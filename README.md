@@ -1,2 +1,2 @@
 # QuadtreeAttention
-# Codes will be avaiable once the paper is accepted
+# Codes will be released once the paper is accepted
