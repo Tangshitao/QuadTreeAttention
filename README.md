@@ -1,4 +1,4 @@
-This repository contains codes for quadtree attention. This repo contains codes for feature matching, image classficiation, object detection and semantic segmentation.
+This repository contains codes for our [paper](https://arxiv.org/abs/2201.02767) 'QuadTree Attention for Vision Transformer'. This repo contains codes for feature matching, image classficiation, object detection and semantic segmentation.
 
 <div align="center">
   <img width="800", src="./teaser.png">
