@@ -5,7 +5,7 @@ The results can be reproduced when training with 8 gpus. Please run the followin
 ```
 sh scripts/reproduce_train/indoor_quadtree_ds.sh
 ```
-The parameters top K can be reduced for speeding up. The performance won't drop too much. Please set this parameter in cfg.LOFTR.COARSE.TOPKS.
+The parameter top K can be reduced for speeding up. The performance won't drop too much. Please set this parameter in cfg.LOFTR.COARSE.TOPKS.
 
 ## Testing
 ```
