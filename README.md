@@ -1,4 +1,4 @@
-This repository contains codes for our [paper](https://arxiv.org/abs/2201.02767) 'QuadTree Attention for Vision Transformers'. This repo contains codes for feature matching, image classficiation, object detection and semantic segmentation.
+This repository contains codes for quadtree attention. This repo contains codes for feature matching, image classficiation, object detection and semantic segmentation.
 
 <div align="center">
   <img width="800", src="./teaser.png">
@@ -20,6 +20,7 @@ We provide baselines results and model zoo in the following.
 | Method           | AUC@5 | AUC@10 | AUC@20 | Model |
 |------------------|:----:|:-----:|:------:|:-------:|
 | Indoor     | 24.9  |  44.7 |  61.8 |[[Google]](https://drive.google.com/file/d/17c2NXPiWgn6khrNBva0bZph6ZV-Z9e-m/view?usp=sharing)/[[GitHub]](https://github.com/Tangshitao/QuadTreeAttention/releases/download/QuadTreeAttention_feature_match/indoor.ckpt) |
+| Outdoor     | 53.5  |  70.2 |  82.2 |[[Google]](https://drive.google.com/file/d/1UOYdzbrXHU9kvVy9tscCCO7BB3G4rWK4/view?usp=sharing)/[[GitHub]](https://github.com/Tangshitao/QuadTreeAttention/releases/download/QuadTreeAttention_feature_match/outdoor.ckpt) |
 
 ### Image classification
 
