@@ -19,8 +19,8 @@ We provide baselines results and model zoo in the following.
 
 | Method           | AUC@5 | AUC@10 | AUC@20 | Model |
 |------------------|:----:|:-----:|:------:|:-------:|
-| Indoor     | 24.9  |  44.7 |  61.8 |[[Google]](https://drive.google.com/file/d/1pSK_8GP1WkqKL5m7J4aHvhFixdLP6Yfa/view?usp=sharing)/[[GitHub]](https://github.com/Tangshitao/QuadTreeAttention/releases/download/QuadTreeAttention_feature_match/indoor.ckpt) |
-| Outdoor     | 53.5  |  70.2 |  82.2 |[[Google]](https://drive.google.com/file/d/1UOYdzbrXHU9kvVy9tscCCO7BB3G4rWK4/view?usp=sharing)/[[GitHub]](https://github.com/Tangshitao/QuadTreeAttention/releases/download/QuadTreeAttention_feature_match/outdoor.ckpt) |
+| ScanNet     | 24.9  |  44.7 |  61.8 |[[Google]](https://drive.google.com/file/d/1pSK_8GP1WkqKL5m7J4aHvhFixdLP6Yfa/view?usp=sharing)/[[GitHub]](https://github.com/Tangshitao/QuadTreeAttention/releases/download/QuadTreeAttention_feature_match/indoor.ckpt) |
+| Megadepth   | 53.5  |  70.2 |  82.2 |[[Google]](https://drive.google.com/file/d/1UOYdzbrXHU9kvVy9tscCCO7BB3G4rWK4/view?usp=sharing)/[[GitHub]](https://github.com/Tangshitao/QuadTreeAttention/releases/download/QuadTreeAttention_feature_match/outdoor.ckpt) |
 
 ### Image classification
 
