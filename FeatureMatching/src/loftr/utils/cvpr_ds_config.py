@@ -13,6 +13,7 @@ _CN.RESOLUTION = (8, 2)  # options: [(8, 2), (16, 4)]
 _CN.FINE_WINDOW_SIZE = 5  # window_size in fine_level, must be odd
 _CN.FINE_CONCAT_COARSE_FEAT = True
 
+
 # 1. LoFTR-backbone (local feature CNN) config
 _CN.RESNETFPN = CN()
 _CN.RESNETFPN.INITIAL_DIM = 128
@@ -26,6 +27,9 @@ _CN.COARSE.NHEAD = 8
 _CN.COARSE.LAYER_NAMES = ['self', 'cross'] * 4
 _CN.COARSE.ATTENTION = 'linear'  # options: ['linear', 'full']
 _CN.COARSE.TEMP_BUG_FIX = False
+_CN.COARSE.BLOCK_TYPE = 'quadtree'  
+_CN.COARSE.ATTN_TYPE = 'B'  
+_CN.COARSE.TOPKS=[32, 16, 16]  
 
 # 3. Coarse-Matching config
 _CN.MATCH_COARSE = CN()
@@ -46,5 +50,6 @@ _CN.FINE.D_FFN = 128
 _CN.FINE.NHEAD = 8
 _CN.FINE.LAYER_NAMES = ['self', 'cross'] * 1
 _CN.FINE.ATTENTION = 'linear'
+_CN.FINE.BLOCK_TYPE = 'loftr'
 
 default_cfg = lower_config(_CN)
