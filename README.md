@@ -14,6 +14,7 @@ This repository contains codes for quadtree attention. This repo contains codes 
 We provide baselines results and model zoo in the following.
 
 ### Feature matching
+#### News! QuadTree Attention achieves the best single model performance among all public available pretrained models in image matching chanllenge 2022. Please refer to this [[post]](https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/328805).
 
 - Quadtree on Feature matching
 
