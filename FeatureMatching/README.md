@@ -11,3 +11,18 @@ The parameter top K can be reduced for speeding up. The performance won't drop t
 ```
 sh scripts/reproduce_test/indoor_ds_quadtree.sh
 ```
+
+## Sample to Test an Image Pair
+
+- Download outdoor weights from this [Github Release](https://github.com/Tangshitao/QuadTreeAttention/releases/tag/QuadTreeAttention_feature_match)
+
+- Run the following command:
+
+```bash
+python3 test_one_image_pair_sample.py --weight_path ./outdoor.ckpt \
+        --config_path ./configs/loftr/outdoor/loftr_ds_quadtree.py \
+        --query_path ./assets/phototourism_sample_images/london_bridge_19481797_2295892421.jpg \
+        --ref_path ./assets/phototourism_sample_images/london_bridge_49190386_5209386933.jpg
+```
+
+![Feature Matching Sample](./docs/images/feature_matching_result.jpg)
